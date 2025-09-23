@@ -52,16 +52,25 @@
 }
 
 .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area: main;
     height: 80vh;
 }
 
 .main2 {
+     display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area: main2;
     height: 80vh;
 }
 
 .main3 {
+     display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area: main3;
     height: 80vh;
 }
@@ -69,4 +78,19 @@
 .footer {
     grid-area: footer;
     height: 10vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    border: 5px solid black;
+    padding: 1rem;
+}
+
+.img-fluid {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
 }
