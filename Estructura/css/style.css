@@ -89,11 +89,6 @@
     padding: 1rem;
 }
 
-.img-fluid {
-    max-width: 200px;
-    height: auto;
-    border-radius: 5px;
-}
 
 @media (max-width: 768px) {
     .grid-container {
@@ -107,3 +102,4 @@
             "footer";
     }
 }
+
