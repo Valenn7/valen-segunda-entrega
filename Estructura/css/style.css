@@ -51,7 +51,7 @@
     height: 10vh;
 }
 
-.main {
+.principal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@
     height: 80vh;
 }
 
-.main2 {
+.principal2 {
      display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +67,7 @@
     height: 80vh;
 }
 
-.main3 {
+.principal3 {
      display: flex;
     justify-content: center;
     align-items: center;
