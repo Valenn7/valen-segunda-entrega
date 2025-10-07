@@ -1,2 +1,39 @@
-@use "utilidades/variables" as *;
-@use "utilidades/listas" as *;
+@use "./base/reset" as *;
+@use "layout/index" as *;
+@use "utilities/variables" as *;
+@use "utilities/mixin" as *;
+
+
+// Áreas individuales
+.main {
+  background-color: $color-secundario;
+  height: 80vh;
+  @include flex;
+  grid-area: main;
+}
+
+.main2 {
+  background-color: $color-secundario;
+  height: 80vh;
+  @include flex;
+  grid-area: main2;
+}
+
+.main3 {
+  background-color: $color-secundario;
+  height: 80vh;
+  @include flex;
+  grid-area: main3;
+}
+
+
+.footer {
+    background-color: $color-terciario;
+    grid-area: footer;
+    height: 10vh;
+}
+
+.foto {
+height: 100px;
+width: auto;
+}

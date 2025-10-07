@@ -1,3 +1,51 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  grid-area: header;
+  height: 10vh;
+}
+
+.main {
+  background-color: pink;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: main;
+}
+
+.main2 {
+  background-color: pink;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: main2;
+}
+
+.main3 {
+  background-color: pink;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: main3;
+}
+
+.footer {
+  background-color: violet;
+  grid-area: footer;
+  height: 10vh;
+}
+
+.foto {
+  height: 100px;
+  width: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
