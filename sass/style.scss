@@ -4,28 +4,34 @@
 @use "utilities/mixin" as *;
 
 
-// Áreas individuales
+.grid {
+  @include grid(repeat(3, auto),repeat(3, auto),10px);  
+  grid-template-areas:
+    "header header header"
+    "main   main2  main3"
+    "footer footer footer";
+}
+
 .main {
-  background-color: $color-secundario;
-  height: 80vh;
-  @include flex;
-  grid-area: main;
+    background-color: $color-secundario;
+    height: 80vh;
+    @include flex;
+    grid-area: main;
 }
 
 .main2 {
-  background-color: $color-secundario;
-  height: 80vh;
-  @include flex;
-  grid-area: main2;
+    background-color: $color-secundario;
+    @include flex;
+    grid-area: main2;
+    height: 80vh;
 }
 
 .main3 {
-  background-color: $color-secundario;
-  height: 80vh;
-  @include flex;
-  grid-area: main3;
+    background-color: $color-secundario;
+    @include flex;
+    grid-area: main3;
+    height: 80vh;
 }
-
 
 .footer {
     background-color: $color-terciario;

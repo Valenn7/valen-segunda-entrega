@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  grid-template-areas: "header header header" "main   main2  main3" "footer footer footer";
+}
+
 header {
   grid-area: header;
   height: 10vh;
@@ -21,20 +30,20 @@ header {
 
 .main2 {
   background-color: pink;
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   grid-area: main2;
+  height: 80vh;
 }
 
 .main3 {
   background-color: pink;
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   grid-area: main3;
+  height: 80vh;
 }
 
 .footer {
