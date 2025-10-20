@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+
+header {
+  grid-area: header;
+  height: 10vh;
+}
 
 .grid {
   display: grid;
@@ -14,17 +22,14 @@
   grid-template-areas: "header header header" "main   main2  main3" "footer footer footer";
 }
 
-header {
-  grid-area: header;
-  height: 10vh;
-}
-
 .main {
   background-color: pink;
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
   grid-area: main;
 }
 
@@ -33,6 +38,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
   grid-area: main2;
   height: 80vh;
 }
@@ -42,19 +49,44 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
   grid-area: main3;
   height: 80vh;
 }
 
 .footer {
   background-color: violet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
   grid-area: footer;
   height: 10vh;
+  gap: 20px;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .foto {
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
   width: auto;
+}
+
+.icono {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

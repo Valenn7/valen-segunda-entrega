@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: $color-principal;
+}
+
 header {
      grid-area: header;
     height: 10vh;
