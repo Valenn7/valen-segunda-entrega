@@ -12,6 +12,11 @@
     "footer footer footer";
 }
 
+.grid-item {
+    background-color: $color-primario
+    flex
+}
+
 .main {
     background-color: $color-secundario;
     height: 80vh;
@@ -40,6 +45,7 @@
 }
 
 .foto {
+@include flex;
 height: 100px;
 width: auto;
 }
