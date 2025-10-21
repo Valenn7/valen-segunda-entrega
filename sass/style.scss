@@ -5,7 +5,7 @@
 
 
 .grid {
-  @include grid(repeat(3, auto),repeat(3, auto),10px);  
+  @include grid(repeat(3, auto),repeat(3, auto));  
   grid-template-areas:
     "header header header"
     "main   main2  main3"
