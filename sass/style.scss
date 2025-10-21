@@ -5,7 +5,7 @@
 
 
 .grid {
-  @include grid(repeat(3, auto),repeat(3, auto));  
+  @include grid(repeat(3, auto),repeat(3, auto),10px);  
   grid-template-areas:
     "header header header"
     "main   main2  main3"
@@ -67,4 +67,11 @@ width: auto;
   height: 50px;
   width: 50px;
   display: inline-block;
+}
+
+body.estudios .grid {
+  grid-template-areas:
+    "header header header"
+    "main main2 main2"
+    "footer footer footer";
 }
