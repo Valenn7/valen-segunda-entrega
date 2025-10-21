@@ -1,0 +1,7 @@
+@use "../utilities/mixin" as *;
+
+.foto {
+@include flex;
+height: 200px;
+width: auto;
+}

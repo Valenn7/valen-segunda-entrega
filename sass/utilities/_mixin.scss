@@ -10,3 +10,15 @@
     grid-template-rows: $rows;
     gap: $gap;
 }
+
+@mixin responsive($size) {
+  @if $size == tablet {
+    @media (max-width: 992px) {
+      @content;
+    }
+  } @else if $size == mobile {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+}
